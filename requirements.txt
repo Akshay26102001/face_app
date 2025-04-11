@@ -1,5 +1,7 @@
-Django>=4.2
+Django
+dlib
+face_recognition
 opencv-python
-numpy
-mysqlclient  # or psycopg2 if you're using PostgreSQL
 gunicorn
+psycopg2-binary  # PostgreSQL driver
+python-decouple

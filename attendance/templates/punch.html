@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head><title>Punch In</title></head>
+<body>
+  <h2>Face Punch In</h2>
+  <form method="POST">{% csrf_token %}
+      <button type="submit">Punch In with Face</button>
+  </form>
+  {% if message %}<p>{{ message }}</p>{% endif %}
+</body>
+</html>
